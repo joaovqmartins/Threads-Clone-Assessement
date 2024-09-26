@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Projeto: Mini Threads - Exibição de Usuários, Posts e Comentários
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi inspirado no **Threads do Instagram**, permitindo a exibição de usuários, posts e comentários de maneira dinâmica e estilizada. A aplicação utiliza a **API JSONPlaceholder** para obter dados fictícios de usuários, posts e comentários. Com um design moderno e responsivo, é possível alternar entre visualizações em grade e lista, além de navegar entre os dados, semelhante ao feed de threads.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- **Exibição de Usuários**: Mostra uma lista de usuários com nome e frase de destaque.
+- **Navegação entre Postagens**: Ao clicar em um usuário, exibe os posts daquele usuário.
+- **Exibição de Comentários**: Ao clicar em um post, exibe os comentários relacionados.
+- **Alternância entre Grade e Lista**: Altere a visualização dos dados com um ícone, permitindo exibir informações em grade ou lista.
+- **Exclusão de Comentários**: Possibilidade de excluir comentários com confirmação antes da exclusão.
+- **Reload da Página**: Botão de reload que recarrega a página inteira.
+- **Navegação Dinâmica**: Botão de retorno para a seção anterior (usuário, post ou comentário).
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **ReactJS**: Biblioteca principal para a criação de interfaces dinâmicas.
+- **CSS**: Estilização com foco em Flexbox, Grid e responsividade.
+- **API JSONPlaceholder**: Fonte de dados fictícios para usuários, posts e comentários.
+- **CodeSandBox.io**: Hospedagem e execução do projeto para demonstração.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instalação
 
-### `npm test`
+Siga os passos abaixo para rodar o projeto localmente:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone o repositório**:
+    ```bash
+    git clone https://github.com/joaovipinheiro/Assessement-Fundamentos-React-TheadsClone
+    ```
+2. **Acesse a pasta do projeto**:
+    ```bash
+    cd Assessement-Fundamentos-React-TheadsClone
+    ```
+3. **Instale as dependências**:
+    ```bash
+    npm install
+    ```
+4. **Execute o projeto**:
+    ```bash
+    npm start
+    ```
 
-### `npm run build`
+## Como Usar
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Iniciar o Projeto**:
+    - Ao iniciar o projeto, uma lista de usuários será exibida.
+2. **Visualizar Posts de um Usuário**:
+    - Clique em um usuário para ver os posts dele.
+3. **Visualizar Comentários de um Post**:
+    - Clique em um post para visualizar os comentários associados.
+4. **Alternar Visualização**:
+    - Use o ícone no cabeçalho para alternar entre as visualizações de **lista** e **grade**.
+5. **Navegação**:
+    - O botão de **voltar** no rodapé retorna para a página anterior (usuário ou post).
+6. **Excluir Comentário**:
+    - Para excluir um comentário, clique no ícone de lixeira e confirme a ação.
+7. **Recarregar Página**:
+    - Use o ícone de recarregar para atualizar a página e reiniciar o fluxo.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Layout Inspirado no Threads
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Este projeto foi inspirado no layout do **Threads do Instagram**, proporcionando uma interface amigável e intuitiva, com design minimalista e foco em acessibilidade e usabilidade.
 
-### `npm run eject`
+## Deploy
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Acesse a versão online deste projeto no **CodeSandBox.io**:
+- [Mini Threads - CodeSandBox](https://codesandbox.io/p/sandbox/assessement-fundamentos-react-q6x76g)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Repositório
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [GitHub - Assessement-Fundamentos-React-TheadsClone](https://github.com/joaovipinheiro/Assessement-Fundamentos-React-TheadsClone)
