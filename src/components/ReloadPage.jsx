@@ -1,5 +1,5 @@
-import React from 'react';
-import threads from '../assets/threads.png'; 
+import React from "react";
+import threads from "../assets/threads.png";
 
 const ReloadPage = () => {
   const handleReload = () => {
@@ -7,8 +7,16 @@ const ReloadPage = () => {
   };
 
   return (
-    <div style={{ cursor: 'pointer', display: 'inline-flex', alignItems: 'center' }} onClick={handleReload}>
-      <img src={threads} alt="Reload" className="Img-icon"/>    </div>
+    <div
+      style={{
+        cursor: "pointer",
+        display: "inline-flex",
+        alignItems: "center",
+      }}
+      onClick={handleReload}
+    >
+      <img src={threads} alt="Reload" className="Img-icon" />{" "}
+    </div>
   );
 };
 
